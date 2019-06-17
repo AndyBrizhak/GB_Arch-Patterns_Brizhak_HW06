@@ -19,9 +19,12 @@ namespace GB_Arch_Patterns_Brizhak_HW06_01
         static void Main(string[] args)
         {
             
-            Element firstElement=new Element(new Employee("Vasia","Manager", 0));
-            Element secondElement = new Element(new Employee("Ivan", "Boss", 10));
-            Element thirdElement=new Element(new Employee("Maria", "SuperBoss", 100));
+            var firstElement=new Element(new Employee("Vasia","Manager", 0));
+            var secondElement = new Element(new Employee("Ivan", "Boss", 10));
+            var thirdElement=new Element(new Employee("Maria", "SuperBoss", 100));
+
+            firstElement.LinkElement(secondElement);
+            secondElement.LinkElement(thirdElement);
 
         }
     }
