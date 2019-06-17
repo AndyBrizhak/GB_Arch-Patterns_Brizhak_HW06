@@ -8,6 +8,9 @@ namespace GB_Arch_Patterns_Brizhak_HW06_01
 {
    public interface IElement
    {
-       void LinkElement(IElement next);
+        
+        Employee Employee { get; set; }
+
+        void LinkElement(IElement next);
    }
 }

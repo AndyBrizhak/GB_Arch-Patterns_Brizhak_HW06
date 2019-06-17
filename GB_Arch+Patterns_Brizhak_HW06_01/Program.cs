@@ -18,6 +18,7 @@ namespace GB_Arch_Patterns_Brizhak_HW06_01
     {
         static void Main(string[] args)
         {
+
         }
     }
 }
