@@ -13,10 +13,13 @@ namespace GB_Arch_Patterns_Brizhak_HW06_01
 
         public Element(Employee employee)
         {
-            _employee = employee;
+            this._employee = employee;
         }
 
-        Employee IElement.Employee { get => throw new NotImplementedException(); set => throw new NotImplementedException(); }
+        public Employee employee { get; set ; }
+
+        //public Employee Employee { get; set; }
+
 
         public void LinkElement(IElement next)
         {
