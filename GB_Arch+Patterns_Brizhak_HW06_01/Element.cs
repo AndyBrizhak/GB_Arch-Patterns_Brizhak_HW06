@@ -29,7 +29,7 @@ namespace GB_Arch_Patterns_Brizhak_HW06_01
         {
             if (_employee != null && _employee.Limit >= request)
             {
-                Console.WriteLine("Запрос одобрен" /*+ _employee.Position + _employee.Name*/);
+                Console.WriteLine($"Запрос одобрен {_employee.Position}  {_employee.Name}");
                 return true;
             }
 
@@ -39,7 +39,7 @@ namespace GB_Arch_Patterns_Brizhak_HW06_01
                 return _next.Сonsent(request);
             }
 
-            Console.WriteLine("Запрос отклонен" /*+ _employee.Position + _employee.Name*/);
+            Console.WriteLine($"Запрос отклонен {_employee.Position}  {_employee.Name}");
             return false;
 
         }
