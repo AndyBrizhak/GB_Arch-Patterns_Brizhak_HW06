@@ -43,6 +43,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="IElement.cs" />
     <Compile Include="IEmployee.cs" />
     <Compile Include="IPosition.cs" />
     <Compile Include="Program.cs" />
