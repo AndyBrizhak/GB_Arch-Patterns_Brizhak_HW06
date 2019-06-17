@@ -14,8 +14,8 @@ namespace GB_Arch_Patterns_Brizhak_HW06_01
 
         public Employee(string name, string position, decimal limit)
         {
-            Name = name ?? throw new ArgumentNullException(nameof(name));
-            Position = position ?? throw new ArgumentNullException(nameof(position));
+            Name = name;
+            Position = position ;
             Limit = limit;
         }
     }

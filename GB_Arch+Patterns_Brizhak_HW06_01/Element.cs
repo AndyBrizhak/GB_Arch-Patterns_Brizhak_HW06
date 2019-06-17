@@ -16,10 +16,9 @@ namespace GB_Arch_Patterns_Brizhak_HW06_01
             this._employee = employee;
         }
 
-        public Employee employee { get; set ; }
+        public Employee Employee { get; set ; }
 
-        //public Employee Employee { get; set; }
-
+        
 
         public void LinkElement(IElement next)
         {
@@ -30,17 +29,17 @@ namespace GB_Arch_Patterns_Brizhak_HW06_01
         {
             if (_employee != null && _employee.Limit >= request)
             {
-                Console.WriteLine("Запрос одобрен" + _employee.Position + _employee.Name);
+                Console.WriteLine("Запрос одобрен" /*+ _employee.Position + _employee.Name*/);
                 return true;
             }
 
             if (_next != null)
             {
-                Console.WriteLine("Запрос передан на рассмотрение" + _next.Employee.Position + _next.Employee.Name );
+                Console.WriteLine("Запрос передан на рассмотрение" /*+ _next.Employee.Position + _next.Employee.Name*/ );
                 return _next.Сonsent(request);
             }
 
-            Console.WriteLine("Запрос отклонен" + _employee.Position + _employee.Name);
+            Console.WriteLine("Запрос отклонен" /*+ _employee.Position + _employee.Name*/);
             return false;
 
         }
