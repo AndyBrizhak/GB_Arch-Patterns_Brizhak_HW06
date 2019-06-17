@@ -35,7 +35,7 @@ namespace GB_Arch_Patterns_Brizhak_HW06_01
 
             if (_next != null)
             {
-                Console.WriteLine("Запрос передан на рассмотрение" /*+ _next.Employee.Position + _next.Employee.Name*/ );
+                Console.WriteLine("Запрос передан на рассмотрение" );
                 return _next.Сonsent(request);
             }
 
