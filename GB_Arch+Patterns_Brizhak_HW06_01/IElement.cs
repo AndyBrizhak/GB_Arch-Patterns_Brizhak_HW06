@@ -8,6 +8,6 @@ namespace GB_Arch_Patterns_Brizhak_HW06_01
 {
    public interface IElement
    {
-       void NextElement(IElement next);
+       void LinkElement(IElement next);
    }
 }

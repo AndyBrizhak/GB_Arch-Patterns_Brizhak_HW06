@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace GB_Arch_Patterns_Brizhak_HW06_01
 {
-    interface IPosition
+  public  interface IPosition
     {
         string Position { get; set; }
         decimal Limit { get; set; }
