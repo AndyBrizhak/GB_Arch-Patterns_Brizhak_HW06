@@ -9,9 +9,11 @@ namespace GB_Arch_Patterns_Brizhak_HW06_01
     class Element : IElement
     {
         private IElement _next;
+        private Employee _employee;
 
-        public Element()
+        public Element(Employee employee)
         {
+            _employee = employee;
         }
 
         Employee IElement.Employee { get => throw new NotImplementedException(); set => throw new NotImplementedException(); }
