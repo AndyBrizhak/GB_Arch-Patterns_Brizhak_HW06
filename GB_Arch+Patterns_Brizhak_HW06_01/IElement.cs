@@ -12,5 +12,7 @@ namespace GB_Arch_Patterns_Brizhak_HW06_01
         Employee Employee { get; set; }
 
         void LinkElement(IElement next);
+
+       bool Сonsent(decimal request);
    }
 }
