@@ -1,8 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 // ДЗ к уроку 6 по курсу Архитектуры и шаблоны проектирования Брижак Андрей
 //1. Используя шаблон «Цепочка обязанностей», реализовать следующую задачу: сотрудник
